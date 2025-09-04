@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 
 sudo apt update && sudo apt install -y \
-# Update package lists and install the following packages
 
 xserver-xorg \               # X.Org X server (core display server for Linux)
 xinit \                      # Tool to start X sessions manually

@@ -1,0 +1,58 @@
+    - Baic debain 12 installation with basic toosl
+    - 🖥️ Xorg display system
+    - 📊 polybar (panel)
+    - 🔍 rofi (launcher)
+    - 🔔 dunst (notifications)
+    - 📡 network-manager (tray applet)
+    - 🔊 pipewire + pavucontrol (audio)
+    - 📂 thunar (file manager)
+    - 💻 kitty (terminal)
+    - ⚙️ x11 utilities (xrandr, xsetroot, xrdb, etc.)
+0. Before Installation
+
+sudo apt update && sudo apt install -y \
+xserver-xorg \
+xinit \
+x11-xserver-utils \
+x11-utils \
+mesa-utils \
+bspwm \
+sxhkd \
+polybar \
+rofi \
+picom \
+nitrogen \
+dunst \
+network-manager-gnome \
+blueman \
+pipewire \
+pipewire-audio \
+pavucontrol \
+thunar \
+kitty \
+lxappearance \
+xfce4-power-manager \
+fonts-dejavu \
+fonts-noto
+
+
+
+1. Window Manager
+    - 🪟 bspwm + sxhkd (tiling WM + keybindings)
+2. Display Manager
+    - Ly or SDDM (maybe CDM but it looks too... idk)
+3. Compository
+    - 🌌 picom (compositor)
+4. Additional Utilities
+    4.1 Wallpaper Setter
+        - 🖼 feh (wallpaper)
+        - 🖼 nitrogen 
+    4.2 Bar
+        - Preferebly Polybar
+    4.3 Application launcher
+        - Rofi
+    4.4 System Tray
+        - Polybar's Internal Tray module
+    4.5 Polkit
+        - Polkit-1 ?? (maybe xfce-polkit)
+

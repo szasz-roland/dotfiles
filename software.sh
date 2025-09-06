@@ -28,6 +28,5 @@ packages=(
   vim                       # Terminal based text editor
   firefox                   # Web browser
 )
-
 sudo apt update
 sudo apt install -y "${packages[@]}"
